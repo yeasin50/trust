@@ -397,181 +397,175 @@ OFF
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="evolution_intro">
-Now, let's let our population of players <i>evolve over time</i>. It's a 3-step dance:
+এবার, আমাদের খেলোয়াড়দের একটু <i>সময়ের সাথে বদলাতে</i> বা 'বিবর্তিত' হতে দেওয়া যাক। এটা ৩ ধাপের একটা চক্র:
 </p>
 <p id="evolution_intro_1">
-<b>1. PLAY A TOURNAMENT</b><br>
-Let them all play against each other, and tally up their scores.
+<b>১. টুর্নামেন্ট খেলা</b><br>
+সবাইকে সবার বিপক্ষে খেলতে দিন, আর শেষে তাদের মোট স্কোরের হিসাব করুন।
 </p>
 <p id="evolution_intro_2">
-<b>2. ELIMINATE LOSERS</b><br>
-Get rid of the 5 worst players. (if there's a tie, pick randomly between them)
+<b>২. হেরে যাওয়াদের বাদ দেওয়া</b><br>
+সবচেয়ে কম স্কোর করা ৫ জনকে বাদ দিয়ে দিন। (স্কোর সমান বা 'টাই' হলে, লটারি করে বাছুন)
 </p>
 <p id="evolution_intro_3">
-<b>3. REPRODUCE WINNERS</b><br>
-Clone the 5 best players. (if there's a tie, pick randomly between them)
+<b>৩. বিজয়ীদের প্রতিলিপি তৈরি</b><br>
+সেরা ৫ জন খেলোয়াড়ের মতো হুবহু আরও খেলোয়াড় তৈরি করুন। (স্কোর সমান হলে, লটারি করে নিন)
 </p>
 <p id="evolution_intro_footer">
-...and REPEAT, for as long as you'd like.
-Note: you don't have to wait for people to literally die &amp; reproduce for culture to evolve --
-all that's needed is that "unsuccessful" behaviors go away, and "successful" behaviors are imitated.
-So now...
+...এবং এভাবে চালিয়ে যান, যতক্ষণ আপনি চান।
+Note: সংস্কৃতি বদলানোর জন্য মানুষকে কিন্তু সত্যি সত্যি মারা যেতে বা নতুন করে জন্ম নিতে হবে না—
+শুধু 'অসফল' বা বাজে স্বভাবগুলো বাদ দিয়ে 'সফল' স্বভাবগুলো নকল করলেই হবে।
+তাহলে এবার...
 </p>
 <p id="evolution_intro_button">
-...let's see this in action. &rarr;
+...চলুন বিষয়টা হাতে-কলমে দেখি। &rarr;
 </p>
 
 <p id="evo_1">
-Say we start with the following population of players:
-<span class="all_c">15 Always Cooperates</span>,
-<span class="all_d">5 Always Cheats</span>, and
-<span class="tft">5 Copycats</span>.
-(We'll ignore <span class="grudge">Grudger</span> &amp; <span class="prober">Detective</span> for now)
+ধরুন, শুরুতে আমাদের খেলোয়াড়রা হলো এমন:
+<span class="all_c">১৫ জন সহযোগী</span>,
+<span class="all_d">৫ জন প্রতারক</span>, আর
+<span class="tft">৫ জন অনুকরণকারী</span>।
+(আপাতত আমরা <span class="grudge">প্রতিশোধপরায়ণ</span> আর <span class="prober">গোয়েন্দা</span>-কে হিসাবের বাইরে রাখছি)
 <br><br>
-We're going to do the tournament-eliminate-reproduce dance a dozen times or so.
-Let's make another bet! Who do you think will win the <i>first</i> tournament?
-<b>PLACE YOUR BETS, AGAIN:</b>
+আমরা ওই টুর্নামেন্ট, বাদ দেওয়া আর কপি করার পুরো প্রক্রিয়াটা বেশ কয়েকবার চালাব।
+তাহলে চলুন, আবার একটু ধারণা করা যাক! আপনার কী মনে হয়, <i>প্রথম</i> টুর্নামেন্টে কে জিতবে?
+<b>আপনার ধারণা জানান:</b>
 </p>
 
 <p id="evo_2_all_c">
-Makes sense, <span class="all_c">Always Cooperate</span> outnumbers everyone else right now...
+বোঝা গেল, এখন তো <span class="all_c">সহযোগীদের</span> সংখ্যাই সবার চেয়ে বেশি...
 </p>
 <p id="evo_2_all_d">
-Makes sense, <span class="all_d">Always Cheat</span> has a lot of <span class="all_c">Always Cooperates</span> to exploit...
+বোঝা গেল, <span class="all_d">প্রতারকরা</span> এখন ঠকানোর জন্য অনেক <span class="all_c">সহযোগীকে</span> পাবে...
 </p>
 <p id="evo_2_tft">
-Makes sense, <span class="tft">Copycat</span> won the tournament last time, why not again?...
+বোঝা গেল, গতবার তো <span class="tft">অনুকরণকারী</span> জিতেছিল, এবারও কেন নয়?...
 </p>
 <p id="evo_2">
-Let's see if you're correct:
+চলুন দেখি আপনার ধারণা ঠিক কি না:
 </p>
 
 <p id="label_play_tournament">
-1) play tournament
+১) টুর্নামেন্ট খেলুন
 </p>
 <p id="label_eliminate_bottom_5">
-2) eliminate bottom 5
+২) শেষের ৫ জনকে বাদ দিন
 </p>
 <p id="label_reproduce_top_5">
-3) reproduce top 5
+৩) সেরা ৫ জনকে কপি করুন
 </p>
 
 <p id="evo_3_all_c">
-Alas, <span class="all_c">Always Cooperate</span> got eaten up by
-<span class="all_d">Always Cheat</span>, whose numbers have now increased by 5.
+হায়রে, <span class="all_c">সহযোগীদের</span> সব জায়গা দখল করে নিল <span class="all_d">প্রতারকরা</span>, ফলে প্রতারকদের সংখ্যা এখন ৫ বেড়ে গেল।
 </p>
 <p id="evo_3_all_d">
-Sadly, you were correct! The <span class="all_d">Always Cheaters</span> won this time, 
-and their numbers increased by 5.
+দুঃখের বিষয়, আপনার ধারণাই ঠিক! এবার <span class="all_d">প্রতারকরা</span> জিতেছে, আর তাদের সংখ্যা ৫ বেড়ে গেছে।
 </p>
 <p id="evo_3_tft">
-Alas, <span class="tft">Copycat</span> did not win – but at least they didn't do as bad
-as <span class="all_c">Always Cooperate</span>. They got eaten up by <span class="all_d">Always Cheat</span>,
-whose numbers have now increased by 5.
+আফসোস, <span class="tft">অনুকরণকারী</span> জিততে পারেনি—তবে অন্তত <span class="all_c">সহযোগীদের</span> মতো অত খারাপ হাল হয়নি ওদের। ওদের জায়গাও দখল করে নিয়েছে <span class="all_d">প্রতারকরা</span>, যাদের সংখ্যা এখন ৫ বেড়েছে।
 </p>
 <p id="evo_3">
-But let's try a few more rounds of this...
+তবে চলুন, আরও কয়েক রাউন্ড খেলে দেখি...
 </p>
 
 <p id="evo_4">
-<span class="all_d">Always Cheat</span> is still growing,
-at the expense of <span class="all_c">Always Cooperate</span>...
+<span class="all_d">প্রতারকরা</span> বেড়েই চলেছে, আর কমছে <span class="all_c">সহযোগীরা</span>...
 </p>
 
 <p id="evo_5">
-And now, all the <span class="all_c">Always Cooperates</span> are dead.
-But, wait...
+আর এখন, সব <span class="all_c">সহযোগীরা</span> হারিয়ে গেছে।
+কিন্তু, দাঁড়ান...
 </p>
 
 <p id="evo_6">
-That's right: the <span class="all_d">Always Cheats</span> became a victim of their own success!
-They exploited the naive <span class="all_c">Always Cooperators</span>,
-but once they ran out of them, they had to face the <span class="tft">Copycats</span>:
-who <i>are</i> nice, but not naive.
+একদম ঠিক: <span class="all_d">প্রতারকরা</span> জিতেই বিপদে পড়ল!
+তারা এতদিন সরল <span class="all_c">সহযোগীদের</span> ঠকিয়ে আসছিল,
+কিন্তু যেই <span class="all_c">সহযোগীরা</span> শেষ হয়ে গেল, অমনি সামনে পড়ল <span class="tft">অনুকরণকারীরা</span>:
+যারা ভালো মানুষ, কিন্তু বোকা নয়।
 </p>
 
 <p id="evo_7">
-By simply copying the other player's moves,
-<span class="tft">Copycats</span> can play nice with each other,
-while <span class="all_d">Always Cheats</span> just cheat themselves!
-Not only that, but it also means <span class="tft">Copycat</span>
-can give <span class="all_d">Always Cheat</span>
-a taste of their own medicine.
+অন্যের চাল কপি করে বলে,
+<span class="tft">অনুকরণকারীরা</span> একে অপরের সাথে বেশ মিলেমিশে থাকে,
+অথচ <span class="all_d">প্রতারকরা</span> নিজেদেরই ঠকায়!
+শুধু তাই না, এর ফলে <span class="tft">অনুকরণকারীরা</span>
+<span class="all_d">প্রতারকদের</span> তাদের ভাষাতেই জবাব দিতে পারে।
 </p>
 
 <p id="evo_8">
-And so, as a result...
+আর তাই, ফলাফল হলো...
 </p>
 
 <p id="evo_9">
-...<span class="tft">Copycat</span> inherits the earth.
+...পুরো মাঠ এখন <span class="tft">অনুকরণকারীদের</span> দখলে।
 </p>
 <p id="evo_9_all_c">
-So, although your bet was off -- the nice-but-naive <span class="all_c">Always Cooperators</span>
-were doomed from the start -- in the end, a <i>smart</i> form of niceness prevailed,
-and the <span class="all_d">Always Cheaters</span> were squashed.
+সুতরাং, আপনার ধারণা ভুল ছিল — কারণ ভালো-কিন্তু-বোকা <span class="all_c">সহযোগীদের</span>
+শুরু থেকেই টিকে থাকার কোনো সুযোগ ছিল না। দিনশেষে একধরনের 'চালাক' ভালোমানুষিই টিকে রইল,
+আর <span class="all_d">প্রতারকরা</span> ধুয়েমুছে গেল।
 </p>
 <p id="evo_9_all_d">
-So, in the short run you were right - <span class="all_d">Always Cheat</span> won the first few rounds,
-but in the end, its exploitativeness was its downfall.
+সুতরাং, অল্প সময়ের জন্য আপনার ধারণাই ঠিক ছিল - <span class="all_d">প্রতারকরা</span> শুরুতে জিতেছিল,
+কিন্তু শেষে তাদের ওই <b>ঠকানোর স্বভাবই</b> তাদের ডোবাল।
 </p>
 <p id="evo_9_tft">
-So, in the long run, you were right - <span class="tft">Copycat</span> wins!
-<span class="all_d">Always Cheat</span> may have won in the short run,
-but its exploitativeness was its downfall.
+সুতরাং, সব মিলিয়ে আপনার ধারণাই ঠিক - <span class="tft">অনুকরণকারীরাই</span> জিতল!
+<span class="all_d">প্রতারকরা</span> হয়তো শুরুতে জিতেছিল,
+কিন্তু তাদের ওই <b>ঠকানোর স্বভাবই</b> তাদের ডোবাল।
 </p>
 <p id="evo_9_end">
-This reminds me of a quote:
+এটা দেখে একটা দারুণ উক্তির কথা মনে পড়ে গেল:
 <br><br>
-<i>"We are punished by our sins, not for them."</i><br>
-~ Elbert Hubbard
+<i>"আমরা পাপের জন্য শাস্তি পাই না, পাপের দ্বারাই শাস্তি পাই।"</i><br>
+~ এলবার্ট হুবার্ড
 </p>
 <p id="evo_9_btn">
-(oh, and by the way...)
+(ওহ, ভালো কথা...)
 </p>
 
 <p id="evo_10">
-(...this result is similar even if we put
-<span class="grudge">Grudger</span> &amp; <span class="prober">Detective</span> back in:)
+(...যদি আমরা <span class="grudge">প্রতিশোধপরায়ণ</span> আর <span class="prober">গোয়েন্দা</span>-কে
+আবার ফিরিয়ে আনি, তবুও ফলাফল প্রায় একই থাকে:)
 </p>
 
 <p id="evo_autoplay">
-start the evolution process!
+বিবর্তন প্রক্রিয়া শুরু করুন!
 </p>
 <p id="evo_autoplay_stop">
-stop the evolution process
+বিবর্তন প্রক্রিয়া থামান
 </p>
 
 <p id="evo_10_followup">
-(Note: sometimes, a few <span class="grudge">Grudgers</span> may stick around,
-because when all players except <span class="grudge">Grudger</span> &amp; <span class="tft">Copycat</span> 
-are eliminated, the two tie.)
+(নোট: মাঝেমধ্যে দু-একটা <span class="grudge">প্রতিশোধপরায়ণ</span> টিকে যেতে পারে।
+কারণ <span class="grudge">প্রতিশোধপরায়ণ</span> আর <span class="tft">অনুকরণকারী</span> ছাড়া
+বাকি সবাই যখন বাদ পড়ে যায়, তখন তাদের খেলা 'ড্র' হয়।)
 <br><br>
-So, it seems the math of game theory is telling us something:
-that <span class="tft">Copycat's</span> philosophy,
-"Do unto others as you would have them do unto you", may be not just a 
-<i>moral</i> truth, but also a <i>mathematical</i> truth.
-However...
+মনে হচ্ছে গেম থিওরির এই হিসাব আমাদের খুব জরুরি একটা কথা বলছে:
+<span class="tft">অনুকরণকারীর</span> সেই নীতি—
+"তুমি অন্যের কাছে যেমন ব্যবহার চাও, তাদের সাথেও ঠিক তেমনটাই করো"—
+এটা হয়তো শুধু একটা <i>নৈতিক</i> সত্যই নয়, একটা <i>গাণিতিক</i> সত্যও।
+কিন্তু...
 </p>
 <p id="evo_10_btn">
-...there's a problem: &rarr;
+...একটা সমস্যা আছে: &rarr;
 </p>
 
 <p id="evo_11">
-Look around. The world's full of total jerkwads.
+চারপাশটা একবার দেখুন। দুনিয়াটা তো বাজে লোকে ভরে গেছে।
 <br><br>
-If <span class="tft">Copycat</span> is the strategy in this repeated game of trust that's so powerful --
-that even soldiers in World War I trenches independently "evolved" a similar strategy, called "live and let live" -- 
-why, then, are there so many un-trusting, un-trustworthy people?
-What's causing our epidemic of un-trust?
+যদি <span class="tft">অনুকরণকারীর</span> এই কৌশল এতটাই সেরা হয়—
+যে এমনকি প্রথম বিশ্বযুদ্ধের ভয়াবহ সময়েও সৈন্যরা নিজেরা নিজেরা "বাঁচো এবং বাঁচতে দাও" নামের একই নিয়ম তৈরি করে ফেলেছিল—
+তাহলে আজ কেন চারদিকে এত অবিশ্বাস? কেন মানুষ কাউকে বিশ্বাস করতে চায় না?
+এই অবিশ্বাসের মহামারীর কারণ কী?
 <br><br>
-A clue's in that sentence itself. "In <i>this</i> repeated game of trust."
-So far we've only talked about change in the players:
-what about <i>a change in the game?</i>
-What could lead to...
+এর উত্তর লুকিয়ে আছে ওই লাইনের মধ্যেই। "বিশ্বাসের <i>এই</i> গেমে।"
+এতক্ষণ আমরা শুধু খেলোয়াড়দের পরিবর্তন নিয়ে কথা বলেছি।
+কিন্তু যদি <i>খেলার নিয়মটাই বদলে যায়?</i>
+তখন কীসের কারণে তৈরি হতে পারে...
 </p>
 <p id="evo_11_btn">
-...the evolution of <i>distrust?</i>
+...<i>অবিশ্বাসের</i> বিবর্তন?
 </p>
 
 <!-- - - - - - - - - - - - - - - - - -->
