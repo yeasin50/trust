@@ -30,17 +30,17 @@ SLIDES.push({
 		});
 		self.add({
 			id:"text6", type:"TextBox",
-			x:176, y:316-10, width:760, size:30, color:"#DD4040",
+			x:176, y:326, width:760, size:30, color:"#DD4040",
 			text_id:"conclusion_3_a"
 		});
 		self.add({
 			id:"text7", type:"TextBox",
-			x:176, y:366-10, width:760,
+			x:176, y:376, width:760,
 			text_id:"conclusion_3_a2"
 		});
 		self.add({
 			id:"text8", type:"TextBox",
-			x:74, y:440, width:520, align:"right",
+			x:74, y:450, width:520, align:"right",
 			text_id:"conclusion_4"
 		});
 
@@ -53,7 +53,7 @@ SLIDES.push({
 
 		// Button
 		self.add({
-			id:"button", type:"Button", x:615, y:481, 
+			id:"button", type:"Button", x:615, y:495, 
 			text_id:"conclusion_btn", size:"long",
 			message:"slideshow/scratch"
 		});
@@ -73,13 +73,13 @@ SLIDES.push({
 		// Circular Wordbox
 		self.add({
 			id:"text", type:"TextBox",
-			x:160, y:10, width:640, height:500, align:"center",
+			x:160, y:10, width:640, height:520, align:"center",
 			text_id:"outro_1"
 		});
 
 		// Button
 		self.add({
-			id:"button", type:"Button", x:385, y:466, 
+			id:"button", type:"Button", x:385, y:486, 
 			text_id:"outro_1_btn",
 			message:"slideshow/next"
 		});
