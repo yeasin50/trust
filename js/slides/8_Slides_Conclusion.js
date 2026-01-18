@@ -108,7 +108,7 @@ SLIDES.push({
 		self.add({
 			id:"img", type:"ImageBox",
 			src: "assets/conclusion/truce.jpg",
-			x:228, y:90, width:500,
+			x:228, y:97, width:500,
 		});
 		_hide(o.img); _fadeIn(o.img, 200);
 

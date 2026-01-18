@@ -31,7 +31,7 @@ SLIDES.push({
 		});
 		self.add({
 			id:"text5", type:"TextBox",
-			x:132, y:385, width:817, height:95, align:"right",
+			x:132, y:390, width:817, height:95, align:"right",
 			text_id:"evolution_intro_footer"
 		});
 
@@ -44,7 +44,7 @@ SLIDES.push({
 
 		// Button
 		self.add({
-			id:"button", type:"Button", x:615, y:491, 
+			id:"button", type:"Button", x:615, y:500, 
 			text_id:"evolution_intro_button", size:"long",
 			message:"slideshow/scratch"
 		});
