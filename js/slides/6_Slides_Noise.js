@@ -21,7 +21,7 @@ SLIDES.push({
 		});
 		self.add({
 			id:"btmWords", type:"TextBox", text_id:"noise_1_end",
-			x:130, y:410, width:700, height:100, align:"center"
+			x:130, y:410, width:700, height:120, align:"center"
 		});
 
 		// STAGES
@@ -36,7 +36,7 @@ SLIDES.push({
 		// ONE Button
 		self.add({
 			id:"button", type:"Button",
-			x:383, y:463, text_id:"label_cooperate", uppercase:true,
+			x:383, y:473, text_id:"label_cooperate", uppercase:true,
 			onclick: function(){
 
 				// Make sim go
@@ -80,7 +80,7 @@ SLIDES.push({
 					self.remove("button");
 					self.add({
 						id:"button", type:"Button",
-						x:304, y:463, text_id:"noise_5_btn", size:"long",
+						x:304, y:485, text_id:"noise_5_btn", size:"long",
 						message: "slideshow/scratch"
 					});
 
@@ -136,13 +136,13 @@ SLIDES.push({
 		// Next...
 		self.add({
 			id:"next", type:"TextBox",
-			x:160, y:420, width:640, align:"right",
+			x:160, y:435, width:640, align:"right",
 			text_id: "noise_characters_end"
 		});
 
 		// Next Button!
 		self.add({
-			id:"next_button", type:"Button", x:460, y:460, size:"long",
+			id:"next_button", type:"Button", x:460, y:480, size:"long",
 			text_id:"noise_characters_btn",
 			message:"slideshow/scratch"
 		});

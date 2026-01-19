@@ -13,17 +13,17 @@ SLIDES.push({
 		// Words on top & bottom
 		self.add({
 			id:"topWords", type:"TextBox", text_id:"oneoff_0_top",
-			x:130, y:10, width:700, height:100, align:"center"
+			x:130, y:10, width:700, height:150, align:"center"
 		});
 		self.add({
 			id:"btmWords", type:"TextBox", text_id:"oneoff_0_btm",
-			x:130, y:397, width:700, height:100, align:"center"
+			x:130, y:410, width:700, height:100, align:"center"
 		});
 
 		// Labels
 		self.add({
 			id:"labelYou", type:"TextBox",
-			x:211, y:201, width:50, height:50,
+			x:200, y:200, width:50, height:50,
 			align:"center", color:"#aaa", size:17,
 			text_id:"label_you"
 		});
@@ -36,14 +36,14 @@ SLIDES.push({
 
 		// Buttons
 		self.add({
-			id:"btnCheat", type:"Button", x:275, y:463, text_id:"label_cheat", uppercase:true,
+			id:"btnCheat", type:"Button", x:275, y:493, text_id:"label_cheat", uppercase:true,
 			onclick:function(){
 				_.answer = "CHEAT";
 				publish("slideshow/next");
 			}
 		});
 		self.add({
-			id:"btnCooperate", type:"Button", x:495, y:460, text_id:"label_cooperate", uppercase:true,
+			id:"btnCooperate", type:"Button", x:495, y:490, text_id:"label_cooperate", uppercase:true,
 			onclick:function(){
 				_.answer = "COOPERATE";
 				publish("slideshow/next");
@@ -90,6 +90,14 @@ SLIDES.push({
 
 	onstart: function(self){
 
+		// While bangla text requires large box
+        self.remove("topWords");
+        self.add({
+            id:"topWords", type:"TextBox", 
+            x:130, y: -25, 
+            width:700, height:150, align:"center"
+		});
+		
 		var o = self.objects;
 
 		// Payoff
@@ -104,14 +112,14 @@ SLIDES.push({
 		}
 		self.add({
 			id:"btmWords", type:"TextBox", text_id:"oneoff_2_btm",
-			x:130, y:392, width:700, height:100, align:"center"
+			x:130, y:400, width:700, height:150, align:"center"
 		});
 
 		// Replace button
 		self.remove("btnCheat");
 		self.remove("btnCooperate");
 		self.add({
-			id:"btnNext", type:"Button", x:304, y:481, size:"long",
+			id:"btnNext", type:"Button", x:304, y:520, size:"long",
 			text_id:"oneoff_button_next", 
 			message:"slideshow/next"
 		});
